@@ -17,7 +17,9 @@
             }
 
             body {
-                background-color: #688AC7;
+                
+                background: linear-gradient(180deg, #688AC7 0%, #FFB7B7 100%);
+                height: 100vh;
             }
             .profile {
                 width: 100px;
@@ -55,13 +57,13 @@
                 align-items: center;
             }
             .wrap > a{
-                width: 300px;
+                width: 250px;
                 height: 50px;
 
                 background-color: white;
                 border-radius: 8px;
 
-                margin-bottom: 10px;
+                margin-bottom: 10.5px;
 
                 font-size: 14px;
                 font-weight: bold;
@@ -74,11 +76,36 @@
 
                 text-decoration: none;
                 
-                box-shadow: 3px 3px 5px 0px black;
+                box-shadow: 3px 3px 5px 0px rgb(41, 73, 133);
             }
             .wrap > a:hover {
                 background-color: #f2f2f2;
                 font-size: 15px;
+            }
+            
+            .im{
+                display: flex;
+                flex-direction: low;
+                justify-content: center;
+                align-items: center;
+
+                margin-top: 300px;
+            }
+            .im > a{
+                text-decoration: none;
+            }
+
+            .source {
+                font-size: 13px;
+                color: white;
+                font-weight: 250;
+                margin-top: 5px;
+                margin-bottom: 30px;
+
+                display: flex;
+                flex-direction: low;
+                justify-content: center;
+                align-items: center;
             }
         </style>
     </head>
@@ -88,17 +115,28 @@
             <h1 class="main"> 개나소나 사는 인생</h1>
             <p class="sub">" 그럼에도 불구하고 살아가는게 인생이니까! "</p>
 
-            <a target="_blank" href="https://www.instagram.com/gaena._.sona_life/">개나소나 사는 인생</a>
+            <a target="_blank" href="https://www.instagram.com/gaena._.sona_life/">인스타그램</a>
             <a target="_blank" href="https://www.instagram.com/gaena._.said/">개나왈(曰)</a>
-            <a target="_blank" href="https://www.instagram.com/l2l._.2l2/">작가 인스타</a>
-            <a target="_blank" href="https://blog.naver.com/l2l_2l2/">배경화면 다운</a>
-            
+            <a target="_blank" href="https://twitter.com/l2l_2l2">트위터</a>
             <a target="_blank" href="https://blog.naver.com/l2l_2l2/">유튜브</a>
-            <a target="_blank" href="https://blog.naver.com/l2l_2l2/">트위터</a>
-            <a target="_blank" href="https://blog.naver.com/l2l_2l2/">카카오톡 이모티콘</a>
-            <a target="_blank" href="https://blog.naver.com/l2l_2l2/">OGQ 이모티콘</a>
+            <a target="_blank" href="https://blog.naver.com/l2l_2l2/">블로그</a>
 
         </div>
         
+        <div class="im">
+            <a href="https://www.instagram.com/l2l._.2l2/">
+                <img src="인스타2.png">
+            </a>
+            <a href="https://blog.naver.com/l2l_2l2">
+                <img src="블로그.png">
+            </a>
+            <a href="https://mail.naver.com/v2/new?type=template&mailSN=34338">
+                <img src="이메일.png">
+            </a>
+        </div>
+
+        <p class="source">@l2l._.2l2</p>
+
+    
     </body>
 </html>
